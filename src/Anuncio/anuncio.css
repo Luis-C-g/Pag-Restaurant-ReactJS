@@ -1,0 +1,14 @@
+.publicidad{
+    height: 85vh;
+    width: 80vh;
+}
+.impubli{
+    width: 75vh;
+    height: 75vh;
+}
+@media only screen and (max-width: 768px) {
+    .impubli{
+        width: 50vh;
+        height: 65vh;
+    }
+  }
