@@ -15,9 +15,7 @@
     overflow: auto;
 }
 @media only screen and (max-width: 768px) {
-    .titulo{
-        height: 110vh;
-    }
+
     .parraforest{
         font-size: large;
     }
@@ -30,6 +28,7 @@
   
 .titlirest{
     font-family:'Times New Roman', Times, serif;
+    margin: 1%;
 
 }
 .parraforest{
