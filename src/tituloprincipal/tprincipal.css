@@ -16,7 +16,7 @@
 }
 @media only screen and (max-width: 768px) {
     .titulo{
-        height: 140vh;
+        height: 110vh;
     }
     .parraforest{
         font-size: large;
