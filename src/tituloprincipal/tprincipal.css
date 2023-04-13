@@ -18,10 +18,18 @@
     .titulo{
         height: 140vh;
     }
+    .parraforest{
+        font-size: large;
+    }
   }
+@media only screen and (min-width: 768px) {
+    .titlirest{
+        font-size: 3rem;
+    }
+  }
+  
 .titlirest{
     font-family:'Times New Roman', Times, serif;
-    font-size: 3rem;
 
 }
 .parraforest{
