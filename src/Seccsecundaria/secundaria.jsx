@@ -13,7 +13,7 @@ function Secundaria(props){
             <h2 className="tplatillo">{props.title}</h2>
             <img className="imge" src={props.ruta} />
             <button className="btnmostrar" onClick={handleClick}>
-                {mostrarInfo ? "Ocultar" : "Ver ingredientes"}
+                {mostrarInfo ? "Ocultar" : "Ver Platillo"}
             </button>
             {mostrarInfo && (<div><p className="descrip">{props.descripcion}</p></div>)}
             
