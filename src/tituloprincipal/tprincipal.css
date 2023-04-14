@@ -1,4 +1,4 @@
-.titulo{
+.titulo {
     border-radius: 12px;
     height: 100vh;
     max-height: 100%;
@@ -8,53 +8,74 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)),
-    url(../assets/imgfondo.png)
-    no-repeat center center fixed;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+        url(../assets/imgfondo.png) no-repeat center center fixed;
     background-size: cover;
     overflow: auto;
 }
-@media only screen and (max-width: 768px) {
 
-    .parraforest{
-        font-size: large;
-    }
-  }
-@media only screen and (min-width: 768px) {
-    .titlirest{
-        font-size: 3rem;
-    }
-  }
-  
-.titlirest{
-    font-family:'Times New Roman', Times, serif;
+.titlirest {
+    font-family: 'Times New Roman', Times, serif;
     margin: 1%;
 
 }
-.parraforest{
+
+.parraforest {
     align-items: center;
     width: 50%;
     font-style: italic;
 }
-.btnmenu{
-    width:20vh ;
+
+.btnmenu {
+    width: 20vh;
     height: 10vh;
-    font-size:x-large;
+    font-size: x-large;
     font-weight: 700;
     color: white;
     border-radius: 15px;
-    background-color: black ;
+    background-color: black;
     opacity: 0.7;
-    margin:2%;
-}
-.btnordenar{
     margin: 2%;
-    width:20vh ;
+}
+
+.btnordenar {
+    margin: 2%;
+    width: 20vh;
     height: 10vh;
-    font-size:x-large;
+    font-size: x-large;
     font-weight: 700;
     color: white;
     border-radius: 15px;
-    background-color: rgb(177, 127, 19) ;
+    background-color: rgb(177, 127, 19);
     opacity: 0.9;
+}
+
+@media only screen and (max-width: 768px) {
+    .parraforest {
+        font-size: large;
+    }
+
+    .btnmenu {
+        width: 13vh;
+        height: 6vh;
+        font-size: medium;
+    }
+
+    .btnordenar {
+        width: 13vh;
+        height: 6vh;
+        font-size: medium;
+    }
+
+    .parraforest {
+        font-size: medium;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .titlirest {
+        font-size: 3rem;
+    }
+
 }
